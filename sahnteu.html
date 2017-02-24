@@ -1,0 +1,47 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Sah Nteu ieu?</title><meta name="description" content="antihoax generator "><meta name="author" content=" "><!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.--><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><!--link rel="stylesheet" type="text/css" href=" "--><style>body {
+      font-family: sans-serif;
+      font-size: 13pt;
+    }
+
+    #message {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .komentar {
+      width: 100vw;
+      min-height: 6rem;
+    }
+
+    button#baca {
+      padding: .5rem;
+      margin: .25rem;
+    }
+
+    #error-message {
+      color: red;
+    }
+
+
+    .hide {
+      display: none;
+    }</style><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></head><body><div id="awal"><div><textarea id="hoax-message" placeholder="Kupipes tulisan hoax ke mari"></textarea></div><div><label>Komentar<textarea type="text" id="komentar1" class="komentar" placeholder="Komentar jangan kepanjangan atau kependekan.">
+      </label>
+    </div>
+    <div id="error-message">
+    </div>
+    <div>
+      <button id="bikin">Buat anti-hoax</button>
+    </div>
+  </div>
+  <div id="hasil" class="hide">
+    <div id="antihoax">
+    </div>
+    <div>
+      <p>Kupipes text di atas atau </p>
+      <button id="kembali">kembali</button>
+    </div>
+  </div>
+ 	<script type="text/javascript">function normWords(r,e){var n=r.trim().replace(/\s+/g," ");return e?n.split(/\s+/g):n}$(".komentar").focus(function(){$("#error-message").text("")}),$("#bikin").click(function(){var r=normWords($("#hoax-message").val()),n=normWords(r,!0),a=normWords($("#komentar1").val()).toUpperCase(),t=a.replace(/[^a-z\s]/gim,"");if(t.length<30||normWords(t,!0).length<8)$("#error-message").text("Komentarnya hemat euy?!");else if(normWords(t).length>.25*r.length||normWords(t,!0).length>.25*n.length)$("#error-message").text("Komentarnya panjang amat!");else{var o=r.split(/\n/g),s=(o.map(function(r){return normWords(r,!0)}),a.split(/\.+\s/g).map(function(r){return normWords(e,!0)})),i=a.map(function(r){return 1+parseInt(4*Math.random())}),m=i.reduce(function(r,e){return e},0),l=s.map(function(r){return 10+parseInt(5*Math.random())}),u=l.reduce(function(r,e){return e},0),g=i,h=l,c=.9*n.length/(m+u);g=i.map(function(r){return parseInt(r*c)}),m+u>n.length&&(h=l.map(function(r){return parseInt(r*c)}));for(var d=$("#hoax-message").val().split(/ /g),p="",f=0,v=0;v<s.length;++v){f+=h[v];for(var W=0;W<s[v].length;++v)f+=g[W],d[f]=d[f]+" "+s[v][W]}var p=d.join(" ");$("#antihoax").text(p),$("#hasil").removeClass("hide"),$("#awal").addClass("hide")}}),$("#kembali").click(function(){$("#hasil").addClass("hide"),$("#awal").removeClass("hide")})</script>
+ 	</body>
+ </html>
