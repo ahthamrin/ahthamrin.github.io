@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5006"
+   name=""
+   committed-date="2006-09-10T15:19:06.147461Z"
+   url="http://simile.mit.edu/repository/timeline/trunk/src/main/webapp/api"
+   last-author="dfhuynh"
+   kind="dir"
+   uuid="983b779f-54db-0310-a2f8-e46c051b0de2"
+   repos="http://simile.mit.edu/repository"
+   revision="5108"/>
+<entry
+   name="ext"
+   kind="dir"/>
+<entry
+   name="styles"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="scripts"
+   kind="dir"/>
+<entry
+   committed-rev="5006"
+   name="timeline-api.js"
+   text-time="2006-09-20T08:16:46.000000Z"
+   committed-date="2006-09-10T15:19:06.147461Z"
+   checksum="4867d1704f04c2260e94a412c83b7e29"
+   last-author="dfhuynh"
+   kind="file"
+   prop-time="2006-09-20T08:16:46.000000Z"/>
+</wc-entries>

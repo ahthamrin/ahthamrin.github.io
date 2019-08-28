@@ -1,0 +1,322 @@
+/* HTML tag styles */
+
+body {
+	background-color: #FFFFFF;
+	width: 740px;
+	margin: 20px auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+}
+h1, h2, h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	border: hidden;
+}
+
+p {
+	line-height: 130%;
+	text-align: justify;
+}
+
+table {
+	margin: 0 auto;
+}
+
+/* ID specific styles */
+
+#logo {
+	text-align: center;
+	}
+#titletext {
+	background-image: url("images/ai3-soi-mapworld.gif");
+	width: 740px;
+	height: 600px;
+	text-align: center;
+}
+#booktitle {
+	font-size: 300%;
+	font-weight: bold; 
+	padding-top: 20px;
+}
+#booksubtitle {
+	font-size: 200%;
+	font-weight: bold; 
+
+}
+#pagehead {
+	float: none;
+	clear: both;
+	text-align: left;
+	font-size: 160%;
+	font-weight: bold;
+	margin: 0 5px 5px 5px;
+}
+
+#pagelogo {
+	float: none;
+	clear: both;
+	text-align: left;
+/*	padding-top: 4px;
+	height: 90px; */
+	background-color:#dddddd;
+	border-bottom: 1px solid #660033;
+}
+
+#container {
+	float: none;
+	clear: both;
+	margin: 0 5px 0 5px;
+}
+
+#container h2 {
+	font-size: 140%;
+	font-weight: bold;
+}
+
+#container p {
+	font-size: 120%;
+}
+
+#sidemenu {
+	float: right;
+	font-size: 110%;
+	width: 180px;
+	padding: 0 5px 5px 5px;
+	background-color: #EEEEEE;
+}
+
+#pagecontent {
+	float: left;
+	clear: left;
+	font-size: 120%;
+	width: 520px;
+	margin: 0 5px 5px 5px;
+}
+
+#pagecontentall {
+	font-size: 120%;
+}
+
+#sidemenu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position:outside;
+	line-height: 140%;
+
+}
+
+#sidemenu ul li {
+	padding: .5em 0 0.5em 0;
+	line-height: 110%;
+}
+
+#ai3soitimeline {
+	height: 350px;
+	border: 1px solid #660033;
+	margin: 0 5px 0 5px;
+}
+
+/* Class style */
+
+.sidewide {
+	width: 180px;
+}
+
+.sidenowide {
+	width: 120px;
+}
+
+.topmenu {
+	float: none;
+	clear: both;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	color:#ffffff;
+	background-color:#993366;
+	border-bottom: 1px solid #660033;
+}
+
+.topmenueven {
+	float: none;
+	clear: both;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	color:#ffffff;
+	background-color:#AA4477;
+	border-bottom: 1px solid #660033;
+}
+
+
+
+div.vspace600 {
+	height: 600px;
+	float: none;
+	clear: both;	
+}
+
+
+div.vspace20 {
+	height: 20px;
+	float: none;
+	clear: both;	
+}
+
+div.vspace10 {
+	height: 10px;
+	float: none;
+	clear: both;	
+}
+
+div.vspace5 {
+	height: 5px;
+	float: none;
+	clear: both;	
+}
+
+div.vspace {
+	height: 1px;
+	float: none;
+	clear: both;	
+}
+
+.toplink {
+	margin: 0 5px 0 5px;
+}
+
+.toplink a:link, .toplink a:active, .toplink a:visited {
+	color:#ffffff;
+}
+
+.toplink a:hover {
+	background-color: #dddddd;
+	color:#660033;
+}
+
+.menublock {
+	float: none;
+	clear: both;
+	font-size: 140%;
+	margin: 0 5px 5px 5px;
+}
+.menuitem {
+	float: left;
+	clear: left;
+	width: 180px;
+}
+.menudesc {
+	float: left;
+	text-align: justify;
+}
+
+.img-shadow {
+  float:left;
+  background: url(images/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(images/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+
+.divcenter {
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.news {
+	clear: both;
+	margin-top: 20px;
+}
+
+img.leftfloat {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+img.rightfloatplain {
+	float: right;
+	margin: 0 5px 0 15px;
+}
+
+img.rightfloat {
+	float: right;
+	margin: 0 0 0 10px;
+	border: 1px #666666;
+}
+
+img.imgspace {
+	margin: 5px 5px 5px 5px;
+}
+
+img.leftfloatvspace {
+	margin: 0 10px 10px 0;
+}
+
+.title {
+	margin-top: 5px;
+	font-size: 180%;
+	font-weight: bold;	
+}
+
+.subtitle {
+	font-size: 160%;
+}
+
+.subsubtitle {
+	font-size: 140%;
+}
+
+.subsubsubtitle {
+	font-size: 120%;
+}
+
+.greeter {
+	text-align: right;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.fronttable {
+padding-bottom: 5px;
+border-bottom: 1px;
+}
+
+.tablesmall {
+	font-size: 90%;
+}
+
+.tablehead {
+	background-color: #CCCCCC;
+}
+
+.itemtitle {
+	clear: both;
+	margin-top: 10px;
+}
+
+.itemblock {
+	clear: both;
+	font-size: 120%;
+}
+.itemtime {
+	float: left;
+	width: 200px;
+}
+.itemdesc {
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 520px;
+}
+.indent20 {
+	margin-left: 20px;
+}
+

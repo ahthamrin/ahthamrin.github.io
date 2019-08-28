@@ -1,0 +1,29 @@
+<div id="pagecontent">
+<p class="greeter"><img src="images/photo-greet-kato.jpg" alt="Photo" width="120" height="160" id="Photo"/><br/>Akira Kato, Ph.D
+<br/>Associate Professor, <abbr title="Information Technology Center">ITC</abbr>, The University of Tokyo</p>
+
+<p>I would like to express my congratulation to those who have related to
+this AI<sup>3</sup> Project for its 10th anniversary. It was not an easy task to
+set up just a couple of VSAT stations to establish an IP link between
+two countries -- people may needed to work hard for large diversity of
+problems from physical installation of the stations to the license
+negotiation with their governments.</p>
+
+<p>Furtheremore AI<sup>3</sup> group performed outstanding work to extend the
+infrastructure to cover other countries, enlarging its foot print and
+the community. Meanwhile people were educated by themselves to
+contribute statble operation as well as made the infrastructure as a
+testbed to the new technologies including UDLR, IPv6 unicast, and IPv6
+multicast. While it experienced some minor glitches, the
+infrastructre has been operated reliably so that many students and
+faculties received the benefits.</p>
+
+<p>It is a good moment to reconsider the role of satellite link and AI<sup>3</sup>
+among the current Internet environment for next few years. While the
+network of people will be more important to expand the community, the operational strategies may need to be re-evaluated with the
+terrestrial infrastucture which has been deployed in some
+few countries in order to provide a better and efficient environment.
+
+I wish the AI<sup>3</sup> group will keep the current activities in both hands
+for other success for the next decade.</p>
+</div>

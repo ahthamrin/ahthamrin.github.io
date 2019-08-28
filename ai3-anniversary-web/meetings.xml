@@ -1,0 +1,101 @@
+<div id="dyncontent">
+
+<h2 class="title">Meetings</h2>
+<div align="center">
+<table width="500" border="0" cellpadding="2">
+  <tr class="tablehead">
+    <th>Place</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td>Huahin, Thailand </td>
+    <td>18 - 20 April 2006 </td>
+  </tr>
+  <tr>
+    <td>Phuket, Thailand </td>
+    <td>11 - 15 October 2005 </td>
+  </tr>
+  <tr>
+    <td>Kuala Terengganu, Malaysia </td>
+    <td>19 - 22 April 2005 </td>
+  </tr>
+  <tr>
+    <td>Cebu, Philippines </td>
+    <td>6 - 8 October 2004</td>
+  </tr>
+  <tr>
+    <td>Malang, Indonesia </td>
+    <td>14 - 16 April 2004</td>
+  </tr>
+  <tr>
+    <td>Da Nang, Vietnam</td>
+    <td>2 - 4 October 2003</td>
+  </tr>
+  <tr>
+    <td>Tokyo, Japan </td>
+    <td>19 - 21 June 2003</td>
+  </tr>
+  <tr>
+    <td>Bangkok, Thailand </td>
+    <td>4 - 6 November 2002 </td>
+  </tr>
+  <tr>
+    <td>Singapore </td>
+    <td>17 - 19 April 2002 </td>
+  </tr>
+  <tr>
+    <td>Bali, Indonesia </td>
+    <td>29 - 30 October 2001 </td>
+  </tr>
+  <tr>
+    <td>Manila, Philippines </td>
+    <td>25 - 27 April 2001 </td>
+  </tr>
+  <tr>
+    <td>Penang, Malaysia </td>
+    <td>17 - 19 October 2000 </td>
+  </tr>
+  <tr>
+    <td>Bangkok, Thailand </td>
+    <td>21 - 22 April 2000 </td>
+  </tr>
+  <tr>
+    <td>Hanoi, Vietnam </td>
+    <td>7 - 9 October 1999 </td>
+  </tr>
+  <tr>
+    <td>Phuket, Thailand </td>
+    <td>6 - 7 March 1999 </td>
+  </tr>
+  <tr>
+    <td>Singapore</td>
+    <td>8 - 10 October 1998 </td>
+  </tr>
+  <tr>
+    <td>Penang, Malaysia </td>
+    <td>17 - 19 October 1997 </td>
+  </tr>
+  <tr>
+    <td>Bangkok, Thailand </td>
+    <td>30 June 1997 </td>
+  </tr>
+  <tr>
+    <td>Hong Kong </td>
+    <td>26 January 1997 </td>
+  </tr>
+  <tr>
+    <td>Bandung, Indonesia </td>
+    <td>8 October 1996 </td>
+  </tr>
+  <tr>
+    <td>Bangkok, Thailand </td>
+    <td>6 - 7 June 1996 </td>
+  </tr>
+  <tr>
+    <td>Singapore (AI<sup>3</sup> BoF at APNG) </td>
+    <td>23 January  1996 </td>
+  </tr>
+</table>
+</div>
+
+</div><!--dyncontent-->

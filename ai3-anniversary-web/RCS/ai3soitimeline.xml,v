@@ -1,0 +1,565 @@
+head	1.1;
+access;
+symbols;
+locks
+	husni:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2006.09.20.06.46.44;	author husni;	state Exp;
+branches;
+next	;
+
+
+desc
+@original
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<data>
+   <event 
+        start="Aug 01 1995 09:00:00 GMT"
+        title="JSAT satellites launched"
+        >
+        JCSAT-3 and JCSAT-1B are the satellites used by AI&lt;sup&gt;3&lt;/sup&gt; Project.
+        </event>
+
+    <event 
+        start="Oct 01 1995 09:00:00 GMT"
+        title="AI3 Project started"
+        >
+		WIDE Project and JSAT Corporation kicked off AI&lt;sup&gt;3&lt;/sup&gt; Project as a working group in WIDE Project.
+         </event>
+
+    <event 
+        start="Sep 01 1996 09:00:00 GMT"
+        title="AI3 earth station at NAIST"
+        >
+        The first earth station of AI&lt;sup&gt;3&lt;/sup&gt; Project.
+		Nara Institute of Science and Technology (NAIST) served as the hub of AI&lt;sup&gt;3&lt;/sup&gt; Project using Ku-band links.
+        </event>
+
+    <event 
+        start="Oct 01 1996 09:00:00 GMT"
+        title="AI3 earth station at ITB"
+        >Ku-band earth station in Institut Teknologi Bandung (ITB) started.
+        </event>
+
+    <event 
+        start="Feb 01 1997 09:00:00 GMT"
+        title="AI3 earth station at HKUST"
+        >Ku-band earth station in Hong Kong University of Science and Technology (HKUST) started.
+        </event>
+
+    <event 
+        start="July 01 1997 09:00:00 GMT"
+        title="AI3 earth station at AIT"
+        >Ku-band earth station in Asian Institute of Technology (AIT) started.
+        </event>
+
+    <event 
+        start="July 01 1997 09:00:00 GMT"
+        title="AI3 Phase I construction complete"
+		>Complete the construction of Phase I of AI&lt;sup&gt;3&lt;/sup&gt; Project
+        </event>
+
+    <event 
+        start="Dec 01 1997 09:00:00 GMT"
+        title="AI3 Phase II plan"
+        >
+		The plan for AI&lt;sup&gt;3&lt;/sup&gt; Project Phase II Network started.
+        </event>
+
+    <event 
+        start="Apr 01 1998 09:00:00 GMT"
+        title="Earth station at HKUST closed"
+        >
+		The  AI&lt;sup&gt;3&lt;/sup&gt; earth station at HKUST stopped operation.
+        </event>
+
+    <event 
+        start="Dec 01 1999 09:00:00 GMT"
+        end="Mar 01 2000 09:00:00 GMT"
+		isDuration="true"
+        title="Ku-band transition to JCSAT-1B"
+        >
+		Ku-band link operations moved from JCSAT-3 to JCSAT-1B.
+        </event>
+
+    <event 
+        start="Oct 28 1999 09:00:00 GMT"
+        title="AI3 earth station at SFC"
+        >Keio University Shonan Fujisawa Campus (SFC) started to server as the hub for C-band links.
+        </event>
+
+    <event 
+        start="Oct 01 1999 09:00:00 GMT"
+        title="AI3 earth station at TP"
+        >C-band earth station in Temasek Polytechnic (TP) started operation.
+        </event>
+
+    <event 
+        start="Mar 03 2000 09:00:00 GMT"
+        title="AI3 earth station at ASTI"
+        >C-band earth station in Advanced Science and Technology Institute (ASTI) started operation.
+        </event>
+
+    <event 
+        start="July 04 1999 09:00:00 GMT"
+        title="AI3 earth station at USM"
+        >C-band earth station in Universiti Sains Malaysia (USM) started opreation.
+        </event>
+
+    <event 
+        start="July 05 1999 09:00:00 GMT"
+        title="AI3 earth station at IOIT"
+        >C-band earth station in Institute of Information Technology (IOIT) started.
+        </event>
+
+<!--
+    <event 
+        start="July 01 2000 09:00:00 GMT"
+        title="Ku-band moved to JCSAT-1B"
+        >
+		The operation of Ku-band links moved from JCSAT-3 to JCSAT-1B.
+        </event>
+-->
+
+    <event 
+        start="Nov 14 2000 09:00:00 GMT"
+        title="UDL operation started"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; unidirectional link (UDL) operation started using 6Mbps of bandwidth on C-band. UDL operation includes IPv4 Multicast service using DVMRP as the multicast routing protocol.
+        </event>
+
+    <event 
+        start="May 30 2001 09:00:00 GMT"
+        title="SOI Asia Project started"
+        >
+		WIDE Project and Keio University initiated the School on the Internet Asia (SOI Asia) Project.
+        </event>
+
+<!--
+    <event 
+        start="Dec 15 2001 09:00:00 GMT"
+        title="SOI Asia has 7 partners"
+        >
+		SOI Asia Project finished signing MoUs with its first seven partners in five countries: Keio, Unhas, Unsrat, Unibraw, UCSY, Chula, NUOL.
+        </event>
+-->
+
+    <event 
+        start="Jan 5 2002 09:00:00 GMT"
+        title="SOI Asia 1st RO site at NUOL"
+        >
+		SOI Asia Project started its first Receive Only (RO) site in National University of Laos (NUOL).
+        </event>
+
+    <event 
+        start="Jan 10 2002 09:00:00 GMT"
+        title="SOI Asia RO site at UCSY"
+        >
+		University of Computer Studies Yangoon (UCSY) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 08 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Chula"
+        >
+		Chulalongkorn University started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 19 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unibraw"
+        >
+		Brawijaya University (Unibraw) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 25 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unhas"
+        >
+		Hasanuddin University (Unhas) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 27 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unsrat"
+        >
+		Sam Ratulangi University (Unsrat) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 1 2002 09:00:00 GMT"
+        title="SOI Asia RO site at AIT"
+        >
+		AIT started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 01 2002 09:00:00 GMT"
+        title="SOI Asia RO site at IOIT"
+        >
+		IOIT started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 01 2002 09:00:00 GMT"
+        title="SOI Asia RO site at ASTI"
+        >
+		ASTI started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 06 2002 09:00:00 GMT"
+        title="SOI Asia 1st lecture"
+        >
+		SOI Asia Project conducted its 1st real-time lecture series titled &lt;em&gt;IT Special Lectures&lt;/em&gt;.
+        </event>
+
+    <event 
+        start="Aug 30 2002 09:00:00 GMT"
+        end="Sep 04 2002 09:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia 1st OW"
+        >
+		SOI Asia Project held its 1st Operators Workshop in Keio SFC.
+        </event>
+
+
+    <event 
+        start="Jan 17 2003 09:00:00 GMT"
+        end="Jan 21 2003 09:00:00 GMT"
+		isDuration="true"
+        title="SAINT 2003 Workshop"
+        >AI&lt;sup&gt;3&lt;/sup&gt; organized a workshop in parallel to SAINT 2003 in Florida, USA.
+        </event>
+
+    <event 
+        start="April 7 2003 09:00:00 GMT"
+        title="IPv6 sTLA from APNIC"
+        >
+		APNIC allocated a /32 IPv6 prefix for AI&lt;sup&gt;3&lt;/sup&gt; Project.
+        </event>
+
+    <event 
+        start="Jun 20 2003 09:00:00 GMT"
+        title="SOI Asia Steering Commitee meeting"
+        >
+		SOI Asia Project held its first Steering Commitee meeting in Tokyo.
+        </event>
+
+
+    <event 
+        start="Nov 14 2003 09:00:00 GMT"
+        title="UDL 9Mbps"
+        >
+		The UDL bandwidth increased from 6Mbps to 9Mbps.
+        </event>
+
+    <event 
+        start="Oct 01 2003 09:00:00 GMT"
+        title="PIM-SM multicast routing started"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; switched the multicast routing from DVMRP to PIM-SM.
+        </event>
+
+    <event 
+        start="Mar 31 2004 09:00:00 GMT"
+        title="Ku-band operation stopped"
+        >AI&lt;sup&gt;3&lt;/sup&gt; stopped the operation of Ku-band links, and started the transition process to C-band.
+        </event>
+
+
+    <event 
+        start="Aug 09 2004 09:00:00 GMT"
+        title="AIT started C-band operation"
+        >AIT started operating a  C-band earth station, completing the transition process from Ku-band.
+        </event>
+
+    <event 
+        start="Jul 01 2004 09:00:00 GMT"
+        title="ITB started C-band operation"
+        >ITB started operating a  C-band earth station, completing the transition process from Ku-band.
+        </event>
+
+<!--
+    <event 
+        start="Oct 06 2004 09:00:00 GMT"
+        title="SOI Asia has 17 partners"
+        >
+		SOI Asia Project expanded its partnerships to 17 partners in 11 countries.
+        </event>
+-->		
+
+    <event 
+        start="Dec 24 2004 09:00:00 GMT"
+        title="SOI Asia RO site at MUST"
+        >
+		Mongolia University of Science and Technology (MUST) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 08 2005 09:00:00 GMT"
+        title="SOI Asia RO site at ITC"
+        >
+		Institute of Technology of Cambodia (ITC) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 11 2005 09:00:00 GMT"
+        title="SOI Asia RO site at BUET"
+        >
+		Bangladesh University of Engineering and Technology (BUET) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 14 2005 09:00:00 GMT"
+        title="SOI Asia RO site at PSU"
+        >
+		Prince of Songkla University (PSU) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 18 2005 09:00:00 GMT"
+        title="SOI Asia RO site at CRMA"
+        >
+		Chulachomklao Royal Military Academy (CRMA) started its SOI Asia RO site.
+        </event>
+
+
+    <event 
+        start="Feb 24 2005 14:00:00 GMT"
+        end="Feb 24 2005 24:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia Tsunami symposium"
+        >
+		SOI Asia Project held a special symposium titled &lt;em&gt;Sharing Knowledge Across Borders-Tsunami: Lessons Learned and Universities' Role&lt;/em&gt;. Prime Minister of Japan, Junichiro Koizumi joined the symposium.
+        </event>
+
+    <event 
+        start="Oct 01 2005 09:00:00 GMT"
+        title="IPv6 multicast started"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; started IPv6 multicast network operation using PIM-SM as the multicast routing protocol.
+        </event>
+
+    <event 
+        start="Oct 23 2005 09:00:00 GMT"
+        title="SOI Asia site at Unsyiah"
+        >
+		Syiah Kuala University (Unsyiah) started its SOI Asia site, including a bidirectional link to SFC.
+        </event>
+
+    <event 
+        start="Nov 16 2005 09:00:00 GMT"
+        title="SOI Asia 1st class in IPv6"
+        >
+		SOI Asia held its 1st real-time class using IPv6 multicast, marking the completion of IPv6 migration.
+        </event>
+
+
+    <event 
+        start="Jan 24 2006 09:00:00 GMT"
+        title="SOI Asia HRD Program"
+        >
+		Human Resource Development Program of SOI Asia, called SOI Asia Internship Program, started with the arrival of the 1st batch interns: Alwin of Unsrat and Soe Soe of UCSY.
+        </event>
+
+    <event 
+        start="July 24 2006 06:00:00 GMT"
+        title="UDL 13Mbps"
+        >
+		The UDL bandwidth increased from 9Mbps to 13Mbps.
+        </event>
+
+
+    <event 
+        start="Aug 22 2006 09:00:00 GMT"
+        end="Aug 26 2006 09:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia Global e-Workshop"
+        >
+		SOI Asia Project held its 1st Global e-Workshop, which is a workshop for operations using SOI Asia real-time class environment.
+        </event>
+
+    <event 
+        start="Aug 28 2006 09:00:00 GMT"
+        title="SOI Asia site at UHSC"
+        >
+		University of Health and Sciences of Cambodia (UHSC) started its SOI Asia site.
+        </event>
+
+
+
+<!--
+    <event 
+        start="May 28 2006 09:00:00"
+        end="Jun 15 2006 09:00:00"
+        isDuration="true"
+        title="Writing Timeline documentation"
+        image="http://simile.mit.edu/images/csail-logo.gif"
+        >
+        A few days to write some documentation for &lt;a href="http://simile.mit.edu/timeline/"&gt;Timeline&lt;/a&gt;.
+        </event>
+
+1995/08 JCSAT-3 Launched (C-bandもKu-bandも)(WR1995)
+1995/10 AI3 project started (ITB, AIT, HKUSTがメンバー, AI3 Phase I network)(WR1995)
+        (plan, IOIT, TP, USM will be joined till middle of 1996(WR1995))
+1996/09 AI3 terestrial station in NAIST was built (WR1998)
+1996/10 ITB had earth station (WR1998)
+1997/02 HKUST had earth station (WR1998)
+1997/07 AIT had earth station (WR1998)
+1997/07 Phase I network was constructed among NAIST, AIT, ITB and HKUST (WR1998)
+1997/12 plan, IOIT, TP, USM, ASTI will be joined till Dec, 1997 (WR1996)
+1998/04 HKUST had trouble on sat. link. (WR1998)
+1999/03 AIT, ITB, HKUST are partners
+2000/03 TP, USM, ASTI, IOIT, CMB by C-band communication (WR15)
+2000 Ku-bandはJCSAT-1Bになってる (WR15)
+200?/?? Ku-band停止
+
+30-May-2001		SOI Asia Project is firstly planned by Prof. Jun Murai and Prof. Keiko Okawa, Keio University
+3-Jul-2001		Internal kick-off meeting
+30-Jul-2001		SOI Asia proposed to UNHAS, Indonesia (meeting with Mr. Madjid, PSKMP, UNHAS)
+1-Aug-2001		SOI Asia proposal to potential partners was written by the project team
+23-Aug-2001		SOI Asia proposed to CHULA, Thailand (meeting with Dr. Arthit, Faculty of Engineering, CHULA)
+5-Sep-2001		MoU between UNHAS and WIDE Project
+22-Oct-2001		SOI Asia 1st mission to Myanmar and Laos
+23-Oct-2001		SOI Asia Proposed to Myanmar Government
+24-Oct-2001		SOI Asia Proposed to UCSY, Myanmar
+26-Oct-2001		SOI Asia Proposed to Lao Government and NUOL 
+7-Nov-2001		SOI Asia 1st mission to Indonesia
+8-Nov-2001		SOI Asia site survey at UNSRAT, Indonesia
+8-Nov-2001		MoU between UNSRAT and WIDE project
+12-Nov-2001		SOI Asia site survey at UNIBRAW, Indonesia
+12-Nov-2001		MoU between UNIBRAW and WIDE project
+22-Nov-2001		SOI Asia site survey at UCSY, Myanmar
+23-Nov-2001		MoU between UCSY and WIDE Project
+15-Dec-2001		MoU between CHULA and WIDE Project
+		
+3-Jan-2002		SOI Asia site set-up mission team left for Laos, Myanmar and Thailand
+5-Jan-2002		1st RO site is established at NUOL, Laos, 6Mbps downlink
+8-Jan-2002		CHULA completed site set-up
+10-Jan-2002		UCSY completed site set-up
+19-Jan-2002		UNIBRAW completed site set-up
+25-Jan-2002		UNHAS completed site set-up
+27-Jan-2002		UNSRAT completed site set-up
+1-Feb-2002		AIT completed site set-up
+1-Feb-2002		1st real-time lecture titled "IT Special Lecture" by JAIST was delivered to CHULA, NUOL and UCSY: Total 4 lectures by Prof. Yoichi Shinoda, Prof. Yasuo Tan, Prof. Koichiro Ocimizu and Prof. Takuya Katayama from JAIST
+1-Feb-2002		Myanmar government agreed to make an internet connection at UCSY
+15-Feb-2002		Opening Ceremony at UCSY with Prof. Jun Murai, Prof. Keiko Okawa and SOI Asia team
+6-Mar-2002		real-time lecture titled "IT Special Lecture" by JAIST was delivered to UNHAS, UNIBRAW and UNSRAT: Total 4 lectures by Prof. Yoichi Shinoda, Prof. Yasuo Tan, Prof. Koichiro Ocimizu and Prof. Takuya Katayama from JAIST
+1-Apr-2002		SOI Asia Indonesian Partners' meeting with Prof. Jun Murai, Prof. Keiko Okawa and SOI Asia team in Malang
+18-Jun-2002	18-Jul-2002	SOI Asia Course on IT & Social Science by KEIO SFC (Total 8 lectures, June 18-July 18, 2002, 87 students in 8 partners participated the course)
+30-Jul-2002		Keio University press release on SOI Asia Special Lecture Series
+30-Aug-2002	4-Sep-2002	SOI Asia 1st Operators Workshop was held in Keio University Shonan Fujisawa Campus (21 participants from 9 organizations in 5 countries joined the program)
+13-Sep-2002		MoU between Asian Youth Fellowship Program/ HELP Institute, Malaysia and WIDE Project
+17-Sep-2002	18-Sep-2002	"Advanced Topics for Fisheries and Marine Science" by Tokyo University of Fisheries (Total 4 lectures, 17-18 Sep, 2002, total 53  students from 5 partners participated the course)
+27-Sep-2002		Special Seminar "E-learning of IT Economics"- real-time seminar among Maryland SOI Studio, USA, AIT, Thailand and Keio Mita Campus, Japan
+11-Oct-2002		E-Government Seminar in Indonesia
+11-Nov-2002	23-Jan-2003	"Advanced Internet Technology" by WIDE project (total 16 lectures, 11 Nov 02-23Jan 03, total 41studnets from 5 partners)
+20-Nov-2002		Keio University International Kick-off ceremony
+		
+17-Feb-2003	24-Feb-2003	Operators Workshop in AIT, Thailand (21 participants from 9 organizations in 5 countries join the program)
+20-Feb-2003		Japan ASEAN Exchange Year 2003 project by SOI Asia "Real-time ASEAN Interaction: IT Networking for Human Resources Development and Cooperation in ASEAN" (Real-time symposium among Keio SFC Campus, Japan, AIT, Thailand and UCSY, Myanmar)
+20-Feb-2003		UCSY, Myanmar 1st real-time bi-directional communication (1st real-time communication using internet in Myanmar)
+29-Apr-2003		Special lecture for UNIBRAW "Introduction to reactive fluid dynamics" by Prof. Ueda, Keio University
+20-Jun-2003		1st SOI Asia Steering Committee Meeting, Tokyo, Japan
+2-Jul-2003		Interactive discussion on "Interactive Distance Education" real-time discussion among Keio in Japan, ITB in Indonesia, NUOL in Laos, AYF and HELP in Malaysia, UCSY in Myanmar, ASTI in Philippines and MeSci in Japan, Prime Minister Junichiro Koizumi and some of Japanese Ministers visited the event
+30-Jul-2003		SOI Asia Steering Committee tele-conference
+27-Aug-2003		SOI Asia Steering Committee tele-conference
+2-Oct-2003	3-Oct-2003	SOI Asia Steering Committee Meeting, Da Nang, Vietnam
+3-Oct-2003		SOI Asia MoU renewal- 11 partners in 7 countries signed 1 year MoU with Keio University SFC Research Institute, UNIBRAW, UNHAS, UNSRAT, ITB from Indonesia, CHULA, AIT from Thailand, NUOL from Laos, AYF from Malaysia, UCSY from Myanmar, ASTI from Philippines, IOIT from Viet Nam
+9-Oct-2003		Seminar International 2003 "The Future of Indonesian Technology" in UNIBRAW, Indonesia (SOI Asia delivered real time talk from Keio U and NAIST)
+29-Oct-2003	13-Nov-2003	Advanced Topics for Fisheries and Marine Science II "Fish Diseases and Health Management" by The Japanese Society of Fish Pathology (total 5 lectures, 17 participants from 3 partners)
+		
+12-Feb-2004		1st program on AYF Communication Program-interview to the future student by host university (utilize SOI Asia network as a communication tools before study in Japan)
+13-Apr-2004	14-Apr-2004	SOI Asia Steering Committee Meeting, UNIBRAW, Malang, Indonesia
+14-Apr-2004		SOI ASIA Project New Site Policy and Procedure is decided by steering committee
+12-May-2004		2nd program on AYF Communication Program-Interactive session between AYF graduates and students
+9-Jul-2004		3rd program on AYF Communication Program- Collaboration session with SFC Language Department 
+20-Jul-2004		Chulachomklao Royal Military Academy (CRMA) wishes to join SOI Asia Project, new site survey by secretariat team 
+20-Jul-2004		(new site proposal from CRMA)
+22-Jul-2004		Lecture from Tokai University to NUOL
+28-Jul-2004		Prince of Songklang University wishes to join SOI Asia Project, new site survey by secretariat team
+28-Jul-2004		(new site proposal from PSU)
+9-Aug-2004	17-Aug-2004	Operators Workshop in AIT, Thailand, 14 participants from 6 organization in 4 countries (Malaysia, Laos, Myanmar, Thailand) joined in AIT
+16-Aug-2004	25-Aug-2004	Operators Workshop in ITB, Indonesia, 13 participants from 4 Indonesian Universities joined in ITB
+18-Aug-2004		Mongolian University of Science and Technology submit new site proposal
+23-Aug-2004		Institute of Technology of Cambodia (ITC) submitted new site proposal
+24-Aug-2004		Bangladesh University of Engineering and Technology (BUET) submit new site proposal
+24-Aug-2004		MoU with Tohoku University Faculty of Agriculture to provide lectures to SOI Asia (till March 2007)
+24-Aug-2004		MoU with Tokyo University of Marine Science and Technology to provide lectures to SOI Asia (till March 2007)
+24-Aug-2004		Faculty meeting for Biotechnology Lecture among Tohoku U. ITB and UNIBRAW (1st real-time faculty meeting for preparing lecture contents)
+29-Aug-2004		New site survey at BUET, Bangladesh by secretariat team
+3-Sep-2004		New site survey at ITC, Cambodia by secretariat team
+15-Sep-2004	27-Oct-2004	Advanced Topics for Fisheries and Marine Science III by Tokyo University of Marine Science and Technology (total 14 lectures, 15 Sep-27 Oct)
+21-Sep-2004		New site survey at MUST, Mongolia by secretariat team
+5-Oct-2004	6-Oct-2004	SOI Asia Steering committee Meeting in Cebu, Philippines
+6-Oct-2004		SOI Asia MoU renewal- UNIBRAW, UNHAS, UNSRAT, ITB from Indonesia, CHULA, AIT, PSU, CRMA from Thailand, UCSY from Myanmar, NUOL from Laos, AYF from Malaysia, ASTI from Philippines, IOIT from Vietnam, ITC from Cambodia, MUST from Mongolia, BUET from Bangladesh (auto-renewal)
+8-Oct-2004		New site survey at USC, Philippines
+26-Oct-2004		Outbound Port 25 Blocking and Domain Authentication- Special lecture by Kazu YAMAMOTO Ph.D.
+6-Nov-2004		World Rice Research Conference broadcasting on SOI Asia
+8-Nov-2004		4th program on AYF Communication Program- presentation from AYF students
+26-Nov-2004		University of San Carlos submit new site proposal
+8-Dec-2004	21-Mar-2005	Special Lecutre "Bridges - Dialogues Towards a Culture of Peace at AIT Nobel Laureates & Eminent Persons" (total 8 lectures by Nobel Laureates and eminent persons)
+24-Dec-2004		MUST site setup completed
+		
+8-Jan-2005		ITC site setup completed
+11-Jan-2005		BUET site setup completed
+14-Jan-2005		PSU site setup completed
+18-Jan-2005		CRMA site setup completed
+18-Jan-2005	15-Mar-2005	Tohoku University Biotechnology Lecture Series I by Faculty of Agriculture, Tohoku University (total 16 lectures, 1st accredited lecture in ITB and UNIBARW)
+24-Feb-2005		Special Symposium "Sharing Knowledge Across Borders-Tsunami: Lessons Learned and Universities' Role - " (real-time symposium among Keio, Tohoku U. Japan, AIT and CHULA, Thailand, ITB and UNISIA, Indonesia, Prime Minister Junichiro Koizumi joined the symposium)
+24-Feb-2005		SOI Asia press release on Tsunami Symposium
+24-Feb-2005		SOI Asia press release on partner university expansion
+2-Mar-2005	18-Mar-2005	"Object Oriented Software Development" by Prof. Koichiro Ochimizu, JAIST (total 15 lectures)
+1-Apr-2005		MoU with TU, Nepal
+3-Apr-2005		UNSYIAH submit new site proposal
+4-Apr-2005	8-Apr-2005	SOI Asia Operators Workshop for Tribhuvan University at AIT, 2 participants from TU join the workshop
+19-Apr-2005	21-Apr-2005	SOI Asia Steering Committee Meeting, Kuala Terengganu, Malaysia
+20-Apr-2005		MoU with USC, Philippines
+28-Apr-2005		MoU with UNSYIAH, Indonesia
+11-May-2005	21-Dec-2005	SOI Asia Special Seminar : Sharing Knowledge Across Borders -Tsunami: Lessons Learned and Universities' Role -  (total 9 lectures)
+28-Aug-2005	1-Sep-2005	SOI Asia Operators Workshop 2005, 33 participants from 20 organizations from 11 countries join the workshop
+30-Aug-2005	1-Sep-2005	SOI Asia Advanced Internet Technology II: Internet Operation Workshop in UNIBRAW, Indonesia, 17 participants from 7 organization in 3 countries join the workshop
+14-Sep-2005	11-Jan-2005	Advanced Internet Technology-II: Internet Operation by WIDE Project (Total 13 lectures )
+21-Sep-2005		Broadcast from EXPO 2005 Aichi, Japan - Toward the Creation of Sustainable Society (13 partners joined the event)
+28-Sep-2005	29-Sep-2005	International Conference and Expo on open-source for eGovernance from Hanoi,Vietnam. 
+11-Oct-2005	15-Oct-2005	SOI Asia Steering Committee Meeting, PSU Phuket Campus, Thailand
+26-Oct-2005	14-Dec-2005	Advanced Topics for Marine Technology 2005 by Tokyo University of Marine Science and Technology (Total 7 lectures)
+1-Nov-2005		UNSYIAH start to join SOI Asia courses
+16-Nov-2005		Press release on "Collaboration of 20 Universities in 11 Countries Throughout Asia Deployed a World First Next Generation Distance Learning Platform Using Wide Area IPv6 Multicast"
+22-Nov-2005		Press release on supporting activities for UNSYIAH
+22-Nov-2005	6-Mar-2006	Advanced Topics for Marine Science 2005 by Tokyo University of Marine Science and Technology (Total 8 lectures)
+		
+1-Jan-2006		UNSYIAH start to receive Indonesian language lectures from ITB
+17-Jan-2006		SOI Asia Human Resource Development Program (Internship Program) is launched, 1st batch arrive Japan- 3 months training program for network operators in partner organizations 
+26-Jan-2006		Asian Institute of Medicine, Science and Technology (AIMST) submit new site proposal
+7-Feb-2006	15-Mar-2006	Reproductive Bioscience and Biotechnology- Basics, Application and Venture Business- coordinated by Tohoku University (total 15 lectures)
+24-Feb-2006		New site survey at AIMST, Malaysia by secretariat team
+27-Feb-2006	13-May-2006	Object Oriented Software Development by Prof. Koichiro Ochimizu, JAIST (total 15 Lectures)
+14-Mar-2006		SOI Asia start to collaborate with JICA Net to multicast "JICA Seminar" to UNSYIAH 
+16-Mar-2006		MoU is concluded between ITB and Keio University- 1st University level MoU with Keio, based on AI3 and SOI Asia relationship
+30-Mar-2006		New site survey at UHSC, Cambodia by secretariat team 
+18-Apr-2006	20-Apr-2006	SOI Asia Steering Committee Meeting, Huahin, Thailand
+18-May-2006		"Special Lecture for Keio University ""Research for Future Networking"" Peter A. Freeman, PhD Assistant Director of the National Science Foundation for 
+Computing and Information Science and Engineering (CISE) "
+6-Jun-2006		Special Lecture by Dr. Bob Dolin of Echelon Corporation 
+9-Jun-2006		"Special Lecture for University of Tokyo Directions in Wireless Research by Dr. Kevin Kahn, Intel Senior Fellow
+"
+14-Jun-2006		University of Health Science of Cambodia (UHSC) submit new site proposal
+1-Jul-2006		MoU with UHSC, Cambodia
+26-Jul-2006		University of Computer Studies, Mandalay (UCSM) submit new site proposal
+2-Aug-2006		MoU with USM, Malaysia
+22-Aug-2006	26-Aug-2006	SOI Asia Workshop 2006 "Global E-Workshop"- 1st remote workshop utilizing SOI Asia network and environment, 42 participants from 19 organizations in 10 countries join the workshop
+
+-->
+</data>@

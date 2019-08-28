@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div>
+<h1 class="title">Advanced Science and Technology Institute</h1>
+
+<h2 class="subtitle">Activities</h2>
+
+<p>ASTI has been developing <abbr title="Philippine Research Education and Government Information Network">PREGINET</abbr> since June 2000, connecting more than 90 institutions in the country. Activities that have been conducted over the AI<sup>3</sup> satellite-based network test bed are in the areas of: (1) TCP Optimization over Satellite, (2) IP version 6 (IPv6) competency building, testing and deployment, (3) H.323 Multimedia over IP evaluation and deployment, and (4) Network Measurement.</p>
+
+<p><strong>TCP Optimization over Satellite</strong><br/>
+Using simulation and experimental approach, performance analysis of some proposed
+TCP extensions to improve TCP performance over a hybrid satellite network was performed by Peter Antonio B. Banzon and Denis F. Villorente. Three TCP implementations were compared - TCP Reno, SACK (Selective Acknowledgement), and FACK (Forward Acknowledgement). Results of their investigation show higher network throughput when using SACK and FACK compared to Reno.</p>
+
+<p><strong>MBONE Experiments</strong><br/>
+Connectivity to the MBONE (Multicast BackBONE on the Internet) was established on March 6, 2001 via a multicast connection through a tunnel link with APAN Tokyo Network Operations Center.  The link uses PIM-SM (protocol independent multicast – sparse mode), MBGP (multicast border gateway protocol), and MSDP (multicast source discovery protocol).  Design and implementation of experiments and applications over this multicast connection in cooperation with other AI3 partners has been ongoing since that date. Testing, evaluation, and demonstration of multimedia applications are among the activities that have been conducted over this multicast connection.</p>
+
+
+<p><strong>IPv6</strong><br/>
+ASTI pursues the adoption of IPv6 in the Philippines by gaining competency in the technology, advocacy and building partnerships with government, research and academic institutions as well as ISPs and Telecommunications Providers. The ASTI-PREGINET IPv6 team conducts IPv6 R&amp;D activities, deployment, demonstrations, tutorials and workshops.</p>
+<p>In-partnership with Pan-Asia ICT Networking Programme, ASTI undertook the &quot;Building a Philippine IPv6 Network&quot; project.  Through the funding from IDRC/AMIC, ASTI was able to deploy IPv6 PC routers to one institute in each of the three geographic areas of the country (Luzon, Visayas, Mindanao).  The strategy is to make these institutions the &quot;lead&quot; agents for IPv6 adoption in their respective areas.  The project also funded the development of informational materials about IPv6 and enabling IPv6 for the most common operating systems and network services. </p>
+
+<p><strong>H.323</strong><br/>
+ASTI-PREGINET conducted R&D on H.323, and was able to deploy H.323 as a standard network service to PREGINET partners all over the country. In addition, ASTI is already registered with VIDENET, thus allowing ASTI subscribers to connect to H.323 users of the other VIDENET registered organizations (consisting mainly of universities in several countries). This facility can be extended to users of networks connected to the ASTI network.</p>
+
+<p><strong>Network Measurement</strong><br/>
+ASTI-PREGINET team  conducts research and development on new tools to monitor and manage a network. To maintain the health and availability of the PREGINET network, ASTI-PREGINET has developed NetMon, an integrated, web-based network monitoring tool that monitors various types of network devices and systems, and manages the performance of a network. The tool automatically notifies network administrators on detected network problems and allows network administrators to resolve network problems.</p>  
+
+<h2 class="subtitle">Events</h2>
+
+<p><strong>Symposium on Developing the Next Generation Internet in the Philippines</strong>
+<br/>April 25, 2001
+<br/>PHIVOLCS, Quezon City, Philippines
+</p>
+
+<p>The symposium aimed to promote awareness on the importance of Next Generation Internet (NGI) for the Philippines. The specific objectives included: obtain support from the government, industry, and academe on the development of NGI in the Philippines; forge linkages with potential partners and supporters; promote network technologies and applications being deployed in research and education networks; and consider possible collaboration with international and local NGI initiatives.</p>
+
+<p><strong>1st AI<sup>3</sup>/PREGINET Research Working Groups Meeting</strong>
+<br/>October 23, 2001
+<br/>ASTI, Quezon City, Philippines
+</p>
+
+<p>The meeting was organized in line with the following objectives: (1) provide an overview of the AI<sup>3</sup> project, its accomplishments and research activities; (2) provide an overview on the PREGINET project, which is part of the AI<sup>3</sup> test-bed; (3) establish research collaboration among academic institutions in the National Capital Region and make them aware of the available research connections with APAN and AI<sup>3</sup>; and (4) form research working groups in the areas of network technologies, distance learning, medical informatics, agriculture, and disaster mitigation.</p>
+
+<p><strong>SOI Asia Project - Realtime ASEAN Interaction: IT Networking for Human Resources Development and Cooperation in ASEAN</strong>
+<br/>February 20, 2003
+<br/>ASTI, Quezon City, Philippines
+</p>
+<p>The Philippines participated in the discussion through videoconference. The participants at the ASTI site included the UP Open University; UP National Institute for Science and Mathematics Education Development; and the National Computer Institute. In this event, Dr. Ma. Lurenda Suplido of UPOU related to the international audience that the SOI project can facilitate more collaboration and consultations among professors and experts of the Philippines and other member countries on highly-specialized researches.</p>
+
+<p><strong>Series of Workshops on Establishing and Enabling an IPv6 Network</strong></p>
+
+<p>February 20-21, 2003 
+<br/>UP EEE Network Simulation and Training Laboratory/ASTI</p>
+
+<p>The workshop participants included faculty, students, government staff, and the identified Project Managers per project site. The objective of the workshop was to enable the participants to establish their own IPv6 network in their respective institutions. Topics covered included: IPv6 routing, DNS servers, web servers, web proxies, email and IPv6-enabled applications. Attendees had hands-on, practical experience on the configuration and setting up these various network components and services.</p>
+
+<p>March 18, 19, and 22, 2003
+<br/>Asia Pacific College (APC)</p>
+
+<p>The workshop was organized in cooperation with the CNE31 class of APC's BS IT program. Participants, which totalled to 62 students, were made up of 2nd, 3rd, and 4th year BS IT students of APC.</p>
+
+<h2 class="subtitle">Gallery</h2>
+<div class="center">
+<img src="images/photo-asti-ai3preginet-ws.jpg" class="imgspace" alt="AI3-Preginet workshop"/>
+<img src="images/photo-asti-ipv6ws.jpg" class="imgspace" alt="IPv6 workshop"/>
+</div>
+<p class="center">Workshops held by ASTI</p>
+
+<div class="center">
+<img src="images/photo-asti-ngi-symposium.jpg" class="imgspace" alt="NGI Symposium"/>
+</div>
+<p class="center">Next Generation Internet Symposium</p>
+
+<div class="center">
+<img src="images/photo-asti-ai301.jpg" class="imgspace" alt="ai3 meeting 2001"/>
+</div>
+<p class="center">AI<sup>3</sup> Spring Meeting, Manila 2001</p>
+
+<div class="center">
+<img src="images/photo-asti-ai304.jpg" class="imgspace" alt="ai3 meeting 2004"/>
+</div>
+<p class="center">AI<sup>3</sup> Autumn Meeting, Cebu 2004</p>
+
+</div>

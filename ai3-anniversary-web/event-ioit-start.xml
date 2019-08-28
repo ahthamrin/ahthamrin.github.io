@@ -1,0 +1,43 @@
+<div>
+<h1 class="title">Institute of Information Technology</h1>
+<h2 class="subtitle">Activities</h2>
+<p>1996 - 2006</p>
+<div class="indent20">
+<p>* The  IPv4 infrastructure with the network security mechanism
+<br/>* The peer to peer cache system, dymanic load-balancing 
+<br/>* The IPv6 infrastructure testbed,
+<br/>* The UDL infrastructure for School On Internet (SOI).
+<br/>* IPv4-IPv6 Multicast gateway
+<br/>* Broadcasting the multicast database to all members of VINAREN</p>
+</div>
+<p><em>May 2004:</em> Testing the videoconferencing with AIT via the AI<sup>3</sup> internet connection.</p>
+<p><em>September of 2005:</em> Organising the international conference on open source &amp; live televising the conferrence to all AI<sup>3</sup>-SOIASIA members.</p>
+<p><em>May of 2006:</em> Completely finishing the construction of VINAREN Network Centre as well as it connection infrastructure among its members.</p>
+<p><em>July of 2006:</em> Connecting the AI<sup>3</sup>-SOIASIA to VINAREN.</p>
+<p><em>August of 2006:</em> Building the multicast ipv6 infrastructure to connect VINAREN members with SOI ASIA.</p>
+
+<h2 class="subtitle">Projects</h2>
+<p>Cache loadbalancing</p>
+<p>IPv6 experimental network at Vietnamese Academy Science &amp; Technology</p>
+<p>Gateway to transfer multicast between IPv4 and IPv6</p>
+<p>Network security</p>
+<p>TEIN-VN VINAREN (Trans-Eurasia Information Network - Vietnam and Vietnam NREN)</p>
+
+<h2 class="subtitle">Gallery</h2>
+<div class="center">
+<img src="images/photo-ioit-antenna02.jpg" class="imgspace" alt="antenna picture award 2002"/>
+<img src="images/photo-ioit-antenna04.jpg" class="imgspace" alt="antenna picture award 2002"/>
+</div>
+<p class="center">AI<sup>3</sup> Antenna Picture Award Winners, 2002 and 2004</p>
+<div class="center">
+<img src="images/photo-ioit-meeting1.jpg" class="imgspace" alt="da nang meeting 1"/>
+<img src="images/photo-ioit-meeting2.jpg" class="imgspace" alt="da nang meeting 2"/>
+</div>
+<p class="center">AI<sup>3</sup> and SOI Asia Meeting in Da Nang, 2003</p>
+
+<div class="center">
+<img src="images/photo-ioit-ambassador.jpg" class="imgspace" alt="Ambassador of Japan at AI3-VN"/>
+</div>
+<p class="center">Ambassador of Japan at AI<sup>3</sup>-VN</p>
+
+</div>

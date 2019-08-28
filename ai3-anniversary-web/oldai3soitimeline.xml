@@ -1,0 +1,356 @@
+<data>
+   <event 
+        start="Aug 01 1995 09:00:00 GMT"
+		title="JCSAT satellites launch"
+        >
+        JCSAT-3 and JCSAT-1B are the satellites used by AI&lt;sup&gt;3&lt;/sup&gt; Project.
+        </event>
+		
+    <event 
+        start="Oct 01 1995 09:00:00 GMT"
+        title="AI3 Project starts"
+        >
+		WIDE Project and JSAT Corporation kicked off AI&lt;sup&gt;3&lt;/sup&gt; Project as a working group in WIDE Project.
+         </event>
+
+    <event 
+        start="Sep 01 1996 09:00:00 GMT"
+        title="AI3 earth station at NAIST"
+        >
+        The first earth station of AI&lt;sup&gt;3&lt;/sup&gt; Project.
+		Nara Institute of Science and Technology (NAIST) served as the hub of AI&lt;sup&gt;3&lt;/sup&gt; Project using Ku-band links.
+        </event>
+
+    <event 
+        start="Oct 01 1996 09:00:00 GMT"
+        title="AI3 earth station at ITB"
+        >Ku-band earth station in Institut Teknologi Bandung (ITB) started.
+        </event>
+
+    <event 
+        start="Feb 01 1997 09:00:00 GMT"
+        title="AI3 earth station at HKUST"
+        >Ku-band earth station in Hong Kong University of Science and Technology (HKUST) started.
+        </event>
+
+    <event 
+        start="July 01 1997 09:00:00 GMT"
+        title="AI3 earth station at AIT"
+        >Ku-band earth station in Asian Institute of Technology (AIT) started.
+        </event>
+
+    <event 
+        start="July 01 1997 09:00:00 GMT"
+        title="AI3 Phase I construction completed"
+		>Complete the construction of Phase I of AI&lt;sup&gt;3&lt;/sup&gt; Project
+        </event>
+
+    <event 
+        start="Dec 01 1997 09:00:00 GMT"
+        title="AI3 Phase II plan"
+        >
+		The plan for AI&lt;sup&gt;3&lt;/sup&gt; Project Phase II Network started.
+        </event>
+
+    <event 
+        start="Apr 01 1998 09:00:00 GMT"
+        title="Earth station at HKUST closes"
+        >
+		The  AI&lt;sup&gt;3&lt;/sup&gt; earth station at HKUST stopped operation.
+        </event>
+
+    <event 
+        start="Mar 30 1999 09:00:00 GMT"
+        title="AI3 6Bone starts"
+        >
+		The  AI&lt;sup&gt;3&lt;/sup&gt; started IPv6 network test-bed.
+        </event>
+
+
+    <event 
+        start="Dec 01 1999 09:00:00 GMT"
+        end="Mar 01 2000 09:00:00 GMT"
+		isDuration="true"
+        title="Ku-band transition to JCSAT-1B"
+        >
+		Ku-band link operations moved from JCSAT-3 to JCSAT-1B.
+        </event>
+
+    <event 
+        start="Oct 28 1999 09:00:00 GMT"
+        title="AI3 earth station at SFC"
+        >Keio University Shonan Fujisawa Campus (SFC) started to serve as the hub for C-band links.
+        </event>
+
+    <event 
+        start="Oct 01 1999 09:00:00 GMT"
+        title="AI3 earth station at TP"
+        >C-band earth station in Temasek Polytechnic (TP) started operation.
+        </event>
+
+    <event 
+        start="Mar 03 2000 09:00:00 GMT"
+        title="AI3 earth station at ASTI"
+        >C-band earth station in Advanced Science and Technology Institute (ASTI) started operation.
+        </event>
+
+    <event 
+        start="July 04 1999 09:00:00 GMT"
+        title="AI3 earth station at USM"
+        >C-band earth station in Universiti Sains Malaysia (USM) started opreation.
+        </event>
+
+    <event 
+        start="July 05 1999 09:00:00 GMT"
+        title="AI3 earth station at IOIT"
+        >C-band earth station in Institute of Information Technology (IOIT) started.
+        </event>
+
+    <event 
+        start="Nov 14 2000 09:00:00 GMT"
+        title="UDL operation starts"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; unidirectional link (UDL) operation started using 6Mbps of bandwidth on C-band. UDL operation includes IPv4 Multicast service using DVMRP as the multicast routing protocol.
+        </event>
+
+    <event 
+        start="May 30 2001 09:00:00 GMT"
+        title="SOI Asia Project starts"
+        >
+		WIDE Project and Keio University initiated the School on the Internet Asia (SOI Asia) Project.
+        </event>
+
+    <event 
+        start="Jan 5 2002 09:00:00 GMT"
+        title="SOI Asia 1st RO site at NUOL"
+        >
+		SOI Asia Project started its first Receive Only (RO) site in National University of Laos (NUOL).
+        </event>
+
+    <event 
+        start="Jan 10 2002 09:00:00 GMT"
+        title="SOI Asia RO site at UCSY"
+        >
+		University of Computer Studies Yangoon (UCSY) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 08 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Chula"
+        >
+		Chulalongkorn University started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 19 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unibraw"
+        >
+		Brawijaya University (Unibraw) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 25 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unhas"
+        >
+		Hasanuddin University (Unhas) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 27 2002 09:00:00 GMT"
+        title="SOI Asia RO site at Unsrat"
+        >
+		Sam Ratulangi University (Unsrat) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 1 2002 09:00:00 GMT"
+        title="SOI Asia RO site at AIT"
+        >
+		AIT started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 01 2002 09:00:00 GMT"
+        title="SOI Asia RO site at IOIT"
+        >
+		IOIT started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 01 2002 09:00:00 GMT"
+        title="SOI Asia RO site at ASTI"
+        >
+		ASTI started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Feb 06 2002 09:00:00 GMT"
+        title="SOI Asia 1st lecture"
+        >
+		SOI Asia Project conducted its 1st real-time lecture series titled &lt;em&gt;IT Special Lectures&lt;/em&gt;.
+        </event>
+
+    <event 
+        start="Aug 30 2002 09:00:00 GMT"
+        end="Sep 04 2002 09:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia 1st OW"
+        >
+		SOI Asia Project held its 1st Operators Workshop in Keio SFC.
+        </event>
+
+
+    <event 
+        start="Jan 17 2003 09:00:00 GMT"
+        end="Jan 21 2003 09:00:00 GMT"
+		isDuration="true"
+        title="SAINT 2003 Workshop"
+        >AI&lt;sup&gt;3&lt;/sup&gt; organized a workshop in parallel to SAINT 2003 in Florida, USA.
+        </event>
+
+    <event 
+        start="April 7 2003 09:00:00 GMT"
+        title="IPv6 sTLA from APNIC"
+        >
+		APNIC allocated a /32 IPv6 prefix for AI&lt;sup&gt;3&lt;/sup&gt; Project.
+        </event>
+
+    <event 
+        start="Jun 20 2003 09:00:00 GMT"
+        title="SOI Asia Steering Commitee meeting"
+        >
+		SOI Asia Project held its first Steering Commitee meeting in Tokyo.
+        </event>
+
+
+    <event 
+        start="Nov 14 2003 09:00:00 GMT"
+        title="UDL 9Mbps"
+        >
+		The UDL bandwidth increased from 6Mbps to 9Mbps.
+        </event>
+
+    <event 
+        start="Oct 01 2003 09:00:00 GMT"
+        title="PIM-SM multicast routing starts"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; switched the multicast routing from DVMRP to PIM-SM.
+        </event>
+
+    <event 
+        start="Mar 31 2004 09:00:00 GMT"
+        title="Ku-band operation stops"
+        >AI&lt;sup&gt;3&lt;/sup&gt; stopped the operation of Ku-band links, and started the transition process to C-band.
+        </event>
+
+
+    <event 
+        start="Aug 09 2004 09:00:00 GMT"
+        title="AIT starts C-band operation"
+        >AIT started operating a  C-band earth station, completing the transition process from Ku-band.
+        </event>
+
+    <event 
+        start="Jul 01 2004 09:00:00 GMT"
+        title="ITB starts C-band operation"
+        >ITB started operating a  C-band earth station, completing the transition process from Ku-band.
+        </event>
+
+    <event 
+        start="Dec 24 2004 09:00:00 GMT"
+        title="SOI Asia RO site at MUST"
+        >
+		Mongolia University of Science and Technology (MUST) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 08 2005 09:00:00 GMT"
+        title="SOI Asia RO site at ITC"
+        >
+		Institute of Technology of Cambodia (ITC) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 11 2005 09:00:00 GMT"
+        title="SOI Asia RO site at BUET"
+        >
+		Bangladesh University of Engineering and Technology (BUET) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 14 2005 09:00:00 GMT"
+        title="SOI Asia RO site at PSU"
+        >
+		Prince of Songkla University (PSU) started its SOI Asia RO site.
+        </event>
+
+    <event 
+        start="Jan 18 2005 09:00:00 GMT"
+        title="SOI Asia RO site at CRMA"
+        >
+		Chulachomklao Royal Military Academy (CRMA) started its SOI Asia RO site.
+        </event>
+
+
+    <event 
+        start="Feb 24 2005 14:00:00 GMT"
+        end="Feb 24 2005 24:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia Tsunami symposium"
+        >
+		SOI Asia Project held a special symposium titled &lt;em&gt;Sharing Knowledge Across Borders-Tsunami: Lessons Learned and Universities' Role&lt;/em&gt;. Prime Minister of Japan, Junichiro Koizumi joined the symposium.
+        </event>
+
+    <event 
+        start="Oct 01 2005 09:00:00 GMT"
+        title="IPv6 multicast starts"
+        >
+		AI&lt;sup&gt;3&lt;/sup&gt; started IPv6 multicast network operation using PIM-SM as the multicast routing protocol.
+        </event>
+
+    <event 
+        start="Oct 23 2005 09:00:00 GMT"
+        title="SOI Asia site at Unsyiah"
+        >
+		Syiah Kuala University (Unsyiah) started its SOI Asia site, including a bidirectional link to SFC.
+        </event>
+
+    <event 
+        start="Nov 16 2005 09:00:00 GMT"
+        title="SOI Asia 1st class in IPv6"
+        >
+		SOI Asia held its 1st real-time class using IPv6 multicast, marking the completion of IPv6 migration.
+        </event>
+
+
+    <event 
+        start="Jan 24 2006 09:00:00 GMT"
+        title="SOI Asia HRD Program"
+        >
+		Human Resource Development Program of SOI Asia, called SOI Asia Internship Program, started with the arrival of the 1st batch interns: Alwin of Unsrat and Soe Soe of UCSY.
+        </event>
+
+    <event 
+        start="July 24 2006 06:00:00 GMT"
+        title="UDL 13Mbps"
+        >
+		The UDL bandwidth increased from 9Mbps to 13Mbps.
+        </event>
+
+
+    <event 
+        start="Aug 22 2006 09:00:00 GMT"
+        end="Aug 26 2006 09:00:00 GMT"
+		isDuration="true"
+        title="SOI Asia Global e-Workshop"
+        >
+		SOI Asia Project held its 1st Global e-Workshop, which is a workshop for operations using SOI Asia real-time class environment.
+        </event>
+
+    <event 
+        start="Aug 28 2006 09:00:00 GMT"
+        title="SOI Asia site at UHSC"
+        >
+		University of Health and Sciences of Cambodia (UHSC) started its SOI Asia site.
+        </event>
+</data>

@@ -1,0 +1,26 @@
+<div>
+<h1 class="title">University Sains Malaysia</h1>
+<h2 class="subtitle"> Activities</h2>
+<p>USM is active in various research fields, including multimedia conferencing and satellite communications. Research in satellite communications focuses on: IPv6 over satellite, Video Conferencing over satellite, QoS issue IPv4 and IPv6 traffic for satellite links, Distance Education, and IP over DVB-S.
+</p>
+
+<h2 class="subtitle">Achievements</h2>
+<p><strong>Awards</strong></p>
+<p>Malaysia Technology Expo 2006 - Unidirectional Link Mesh Network over DVB-S (Bronze Medal)</p>
+
+<p><strong>Grants</strong></p>
+<p>Multicasting IPv6 and Reliable Multimedia Conferencing over Satellite, IRPA Long Term Grant, Jan 2000 - July 2003.</p>
+<p>Investigation of Satellite-Based Unidirectional Link for Wide Area Collaboration, IRPA EA Grant, Sept 2002 - Dec 2004.</p>
+
+<h2 class="subtitle">Gallery</h2>
+<div class="center">
+<img src="images/photo-usm-penang1.jpg" class="imgspace" alt="usm penang"/>
+<img src="images/photo-usm-penang2.jpg" class="imgspace" alt="usm penang"/>
+</div>
+<p class="center">AI<sup>3</sup> Meeting at USM, Penang, 2000</p>
+<div class="center">
+<img src="images/photo-usm-kustem.jpg" class="imgspace" alt="kustem kuala trengganu"/>
+</div>
+<p class="center">AI<sup>3</sup> and SOI Asia Meeting at KUSTEM, Kuala Terengganu, 2005</p>
+
+</div>

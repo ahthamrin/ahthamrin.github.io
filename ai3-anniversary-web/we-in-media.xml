@@ -1,0 +1,61 @@
+<div id="dyncontent">
+
+<h2 class="title">In the News</h2>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-sankeiweb-051201.gif" alt="Sankei web" class="leftfloatvspace"/>
+</div>
+  <p><span class="subsubtitle">Supported by Keio University and Others, Distance Learning Classes in Aceh Starts</span><br/>
+    Sankei Web 1 December 2005</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-yahoo-050501.gif" alt="Yahoo BB" class="leftfloatvspace"/>
+</div>
+  <p><span class="subsubtitle">From SOI Asia Project to the World: Reconstruction support for tsunami victims </span><br/>
+    Yahoo! BB Magazine May 2005</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-opent-050401.gif" alt="Open Enterprise" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">From Asian Universities to the World </span><br/>
+    Open Enterprise Magazine April 2005</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-jawapos-040414.jpg" alt="Jawa Pos" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">SOI Initiates Distance Learning in Biotech </span><br/>
+    Jawa Pos 14 April 2004 </p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-mainichi-020918.gif" alt="Mainichi News" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">Classes on the Internet for Asian Universities</span><br/>
+    Mainichi News 18 September 2002</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-asahi-020216.gif" alt="Asahi News" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">Virtual Classes using Satellite in 6 Asian Universities</span><br/>
+    Asahi News 16 February 2002 </p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-newsbytes-010430.gif" alt="Newsbytes" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">Pilot Tests for IPv6 Starts in Philippines</span><br/>
+    Newsbytes 20 April 2001</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-thestar-001019.gif" alt="The Star" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">USM's Hi-tech System is the World's First </span><br/>
+    The Star 19 October 2001</p>
+</div>
+<div class="news">
+<div class="img-shadow">
+<img src="images/news-newsbytes-000925.gif" alt="Newsbytes" width="160" height="120" class="leftfloatvspace"/></div>
+  <p><span class="subsubtitle">Philippines Tests Link to Asian Satellite</span><br/>
+    Newsbytes 25 September 2000</p>
+</div>
+
+</div><!--dyncontent-->
