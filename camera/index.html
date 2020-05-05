@@ -97,7 +97,7 @@
             const camSource = camSelectEl.value
             const constraints = {
                 audio: false,
-                video: {deviceId: camSource ? {exact: camSource} : undefined }
+                video: {deviceId: camSource ? {exact: camSource, aspectRatio: 1.777777778 } : undefined }
             }
             navigator.mediaDevices.getUserMedia(constraints)
             .then(haveStream).then(haveDevices)
