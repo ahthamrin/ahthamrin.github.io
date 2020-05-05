@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Camera app">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Camera">
+    <link rel="apple-touch-icon" href="camera192x192.png">
+    <title>Your Camera</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #video1 {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            /* border: 1px solid red; */
+        }
+
+        #log {
+            width: 100vw;
+            height: 2rem;
+            position: fixed;
+            bottom: 0;
+        }
+
+        #menu {
+            width: 100vw;
+            height: 20vw;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            font-size: 1rem;
+            transition: opacity 1s;
+        }
+
+        #cam {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            color: white;
+        }
+
+        .hide {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <video id="video1" autoplay="autoplay"></video>
+    <div id="log"></div>
+    <div id="menu">
+        <select id="cam"></select>
+    </div>
+
+    <script>
+        var camError;
+        const videoEl = document.querySelector('video');
+        const logEl = document.querySelector('#log');
+        const menuEl = document.querySelector('#menu');
+        const camSelectEl = document.querySelector('select#cam');
+
+        function haveDevices(camInfos) {
+            while(camSelectEl.firstChild) {camSelectEl.removeChild(camSelectEl.firstChild)}
+            for (let i = 0; i < camInfos.length; ++i) {
+                const camInfo = camInfos[i];
+                // console.log(camInfo);
+                const optionEl = document.createElement('option');
+                if (camInfo.kind === 'videoinput') {
+                    optionEl.text = camInfo.label || `camera ${camSelectEl.length + 1}`;
+                    optionEl.value = camInfo.deviceId;
+                    camSelectEl.appendChild(optionEl);
+                }
+                camSelectEl.value = 0;
+            }
+        }
+
+        function haveStream(stream) {
+            window.stream = stream;
+            videoEl.srcObject = stream;
+
+            menuEl.classList.add('hide');
+            return navigator.mediaDevices.enumerateDevices();
+        }
+
+        function startCam() {
+            if (window.stream) {
+                window.stream.getTracks().forEach(track => {track.stop()});
+            }
+            const camSource = camSelectEl.value
+            const constraints = {
+                audio: false,
+                video: {deviceId: camSource ? {exact: camSource} : undefined }
+            }
+            navigator.mediaDevices.getUserMedia(constraints)
+            .then(haveStream).then(haveDevices)
+            .catch(handleError)
+        }
+
+        function handleError(error) {
+            console.log(error);
+            camError = error;
+            logEl.textContent = `${error.message} ${error.name}`;
+        }
+
+        camSelectEl.onchange = startCam;
+
+        menuEl.onclick = function() {
+            menuEl.classList.remove('hide');
+        }
+
+        startCam();
+
+        if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js')
+                .then((reg) => {
+                console.log('Service worker registered.', reg);
+                });
+        });
+        }       
+    </script>
+</body>
+</html>
