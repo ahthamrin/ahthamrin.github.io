@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takbiran Online</title>
+
+    <script text="javascript" src="https://webtiming.github.io/timingsrc/lib/timingsrc-v2.js"></script>
+    <script text="javascript" src="https://mcorp.no/lib/mediasync.js"></script>
+
+    <script type="text/javascript" src="http://www.mcorp.no/lib/mcorp-2.0.js"></script>
+
+    <script>
+ var run = function (timingProvider) {
+
+// timing object
+var to = new TIMINGSRC.TimingObject({provider:timingProvider});
+// var to = new TIMINGSRC.TimingObject({provider:timingProvider, range:[4.6,361]});
+
+var startPos = 4.4;
+var endPos = 406;
+
+// set up button click handlers
+var buttonsElem = document.getElementById("buttons");
+var self = this;
+buttonsElem.onclick = function (e) {
+  var elem, evt = e ? e:event;
+  if (evt.srcElement)  elem = evt.srcElement;
+  else if (evt.target) elem = evt.target;
+  if (elem.id === "pause") {
+    to.update({velocity:0.0});
+  }
+  else if (elem.id === "tostart") { 
+    to.update({position:startPos});
+  } 
+  else if (elem.id === "skipforward") {
+    to.update({position: to.query().position + 5});
+  } 
+  else if (elem.id === "skipbackward") {
+    to.update({position: to.query().position - 5});
+  } 
+  else if (elem.id === "forward") {
+    var v = to.query();
+    if (v.position === 100 && v.velocity === 0) {
+      to.update({position:0.0, velocity: 1.0});
+    } else to.update({velocity:1.0});
+  }
+  else if (elem.id === "toend") {
+    to.update({position:endPos-5});
+  }
+}          
+
+// set up refresh of timingobject position
+to.on("timeupdate", function () {
+  document.getElementById("position").innerHTML = to.query().position.toFixed(2);
+  if (to.query().position > endPos)
+    to.update({position:startPos});
+});
+
+// set up video sync
+var sync1 = MCorp.mediaSync(document.getElementById('player1'), to);
+};
+
+var MCORP_MOTION_NAME = "takbiran";
+var MCORP_APPID = "131869247998981275";
+
+var app = MCorp.app(MCORP_APPID, {anon:true});
+app.run = function () {
+  var timingProvider = app.motions[MCORP_MOTION_NAME];
+  if (document.readyState === "complete") {run(timingProvider);}
+  else {window.onload = function () {run(timingProvider);};}
+};
+app.init();
+
+    </script>
+</head>
+<body>
+    <div id="demo" style="height:50px">
+        <p id="buttons">
+          <button id="tostart">Reset</button>
+          <button id="pause">Pause</button>
+          <b><button id="forward">Play</button></b>
+          <button id="skipforward">Skip 5 Ahead</button>
+          <button id="skipbackward">Skip 5 Back </button>   
+          <button id="toend">To End</button>   
+        </p>
+       
+      </div>
+      <p>
+        <b><span id="position"></span></b>
+      </p>
+      <p style="margin-left: auto; margin-right: auto; width:90vw">
+        <video id="player1" style="width:100%;">
+            <source src="takbiran-240p.m4v" type="video/mp4" />
+        </video>
+      </p>
+                
+</body>
+</html>
