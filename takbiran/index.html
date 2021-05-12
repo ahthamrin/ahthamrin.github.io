@@ -21,36 +21,6 @@ var to = new TIMINGSRC.TimingObject({provider:timingProvider});
 var startPos = 4.4;
 var endPos = 406;
 
-// set up button click handlers
-// var buttonsElem = document.getElementById("buttons");
-// var self = this;
-// buttonsElem.onclick = function (e) {
-//   var elem, evt = e ? e:event;
-//   if (evt.srcElement)  elem = evt.srcElement;
-//   else if (evt.target) elem = evt.target;
-//   if (elem.id === "pause") {
-//     to.update({velocity:0.0});
-//   }
-//   else if (elem.id === "tostart") { 
-//     to.update({position:startPos});
-//   } 
-//   else if (elem.id === "skipforward") {
-//     to.update({position: to.query().position + 5});
-//   } 
-//   else if (elem.id === "skipbackward") {
-//     to.update({position: to.query().position - 5});
-//   } 
-//   else if (elem.id === "forward") {
-//     var v = to.query();
-//     if (v.position === 100 && v.velocity === 0) {
-//       to.update({position:0.0, velocity: 1.0});
-//     } else to.update({velocity:1.0});
-//   }
-//   else if (elem.id === "toend") {
-//     to.update({position:endPos-5});
-//   }
-// }          
-
 // set up refresh of timingobject position
 to.on("timeupdate", function () {
 });
@@ -58,6 +28,8 @@ to.on("timeupdate", function () {
 // set up video sync
 var sync1 = MCorp.mediaSync(document.getElementById('player1'), to);
 };
+
+var initialized = 0;
 
 var MCORP_MOTION_NAME = "takbiran";
 var MCORP_APPID = "131869247998981275";
@@ -68,7 +40,9 @@ app.run = function () {
   if (document.readyState === "complete") {run(timingProvider);}
   else {window.onload = function () {run(timingProvider);};}
 };
-app.init();
+// app.init();
+
+
 
     </script>
 </head>
@@ -76,10 +50,30 @@ app.init();
     <h3>Takbiran Online</h3>
     <p>Silakan ikuti takbiran berjamaah. Video ini tersinkronisasi dengan browser lain.</p>
       <p style="margin-left: auto; margin-right: auto; width:90vw">
-        <video id="player1" style="width:100%;">
-            <source src="takbiran-240p.m4v" type="video/mp4" />
+        <video id="player1" style="width:100%;" controls>
+            <source src="takbiran-240p.m4v" type="video/mp4"/>
         </video>
       </p>
-                
+      <p id="buttons"><button id="start">Mulai</button></p>
+
+      <script>
+
+// set up button click handlers
+var buttonsElem = document.getElementById("buttons");
+var self = this;
+buttonsElem.onclick = function (e) {
+  var elem, evt = e ? e:event;
+  if (evt.srcElement)  elem = evt.srcElement;
+  else if (evt.target) elem = evt.target;
+  if (elem.id === "start") {
+    if (initialized == 0) {
+      app.init();
+      elem.style.display = 'none';
+    }
+    initialized = 1;
+  }
+}          
+
+      </script>
 </body>
 </html>
